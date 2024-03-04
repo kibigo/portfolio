@@ -7,7 +7,7 @@ import TypeWriter from './TypeWriter'
 function Home() {
   return (
     <section>
-        <div className='container flex flex-col mx-auto items-center mt-24 md:flex-row md:gap-10'>
+        <div className='container flex flex-col mx-auto items-center mt-20 md:flex-row md:gap-10'>
 
             <div className='w-full text-center md:basis-1/2'>
                 <h2 className='text-3xl'>Hello, 
@@ -20,7 +20,18 @@ function Home() {
                 </h2>
             </div>
 
-            <div className='mt-10 md:basis-1/2'>
+            <p className='text-base text-texlight mt-6 text-center'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit 
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                occaecat cupidatat non proident, sunt in culpa qui officia 
+                deserunt mollit anim id est laborum.
+            </p>
+
+            <div className='w-full h-full flex items-start justify-center lg:items-center mt-10'>
                 <motion.img 
                     initial={{y:0}}
                     animate={{y: [-10, 10, -10]}}

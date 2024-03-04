@@ -27,7 +27,7 @@ function TypeWriter({words, speed}) {
         }
     }, [currentWord, speed, words])
   return (
-    <span className='tracking-wider text-transparent bg-clip-text text-green-700 mt-7'>
+    <span className='tracking-wider bg-clip-text text-green-700 mt-7'>
         {currenttext}
     </span>
   )

@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
+import Tech from "./Components/Tech";
+import Projects from "./Components/Projects";
 
 function App() {
   return (
@@ -11,6 +13,14 @@ function App() {
 
       <div>
         <Home />
+      </div>
+
+      <div>
+        <Tech />
+      </div>
+
+      <div>
+        <Projects />
       </div>
     </div>
   );
