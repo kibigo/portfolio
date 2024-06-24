@@ -7,7 +7,7 @@ import TypeWriter from './TypeWriter'
 function Home() {
   return (
     <section>
-        <div className='container flex flex-col mx-auto items-center mt-20 md:flex-row md:gap-10'>
+        <div className='container flex flex-col mx-auto items-center mt-5 md:flex-row md:gap-10'>
 
             <div className='w-full text-center md:basis-1/2'>
                 <h2 className='text-3xl'>Hello, 

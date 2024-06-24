@@ -7,24 +7,21 @@ function Navbar() {
 
     const [isMenuVisible, setIsMenuVisible] = useState(false);
 
-    const hideMenu = () => {
-        setIsMenuVisible(false);
-    }
 
     const toggleMenu = () => {
-        setIsMenuVisible(true);
+        setIsMenuVisible(!isMenuVisible);
     }
   return (
-    <header className='w-full'>
-        <nav className='container py-16 relative flex justify-between items-center mx-auto'>
+    <header className='relative'>
+        <nav className='container relative h-10 flex items-center md:justify-between p-10 mx-auto lg:gap-64'>
             <div>
                 <a href='#' className='text-2xl text-blue-500 uppercase font-serif'>
                     Jack<span className='text-yellow-500'>son</span>
                 </a>
             </div>
 
-            <div className={`absolute top-0 w-full md:block md:static md:w-auto ${isMenuVisible ? '' : 'hidden'}`}>
-                <ul className='flex flex-col mt-8 text-right mr-14 gap-5 md:flex-row md:mt-0 lg:gap-20'>
+            <div className={`z-10 md:z-0 md:block mt-40 md:mt-0 bg-white rounded-md ${isMenuVisible ? '' : 'hidden'}`}>
+                <ul className='flex flex-col p-4 md:flex-row text-center md:items-start gap-3 md:gap-3 lg:gap-7 cursor-pointer mt-3'>
                     <li>
                         <a href='#' className='hover:text-yellow-500 text-blue-700 font-bold text-2xl'>Home</a>
                     </li>
@@ -39,15 +36,12 @@ function Navbar() {
                     </li>
                     
                 </ul>
-
-                <div className='absolute right-0 top-[1.85rem] text-3xl cursor-pointer md:hidden lg:hidden'>
-                    <FontAwesomeIcon onClick={hideMenu} icon={faX}/>
-                </div>
+                
             </div>
 
 
 
-            <div className='mt-8 md:mt-0'>
+            {/* <div className='mt-8 md:mt-0'>
                 <ul className='text-center gap-4 text-2xl hidden md:flex flex-row'>
                     <li>
                         <FontAwesomeIcon className='cursor-pointer' icon={faFacebook}/>
@@ -59,10 +53,10 @@ function Navbar() {
                         <FontAwesomeIcon className='cursor-pointer' icon={faLinkedin}/>
                     </li>
                 </ul>
-            </div>
+            </div> */}
 
-            <div className='mt-7 mr-10 md:absolute'>
-                <FontAwesomeIcon onClick={toggleMenu} className={`cursor-pointer text-xl ${isMenuVisible ? 'hidden' : ''} md:hidden`} icon={faBars}/>
+            <div className='absolute right-20'>
+                <FontAwesomeIcon onClick={toggleMenu} icon={faBars} className='cursor-pointer md:hidden text-2xl' />
             </div>
 
             
