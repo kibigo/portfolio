@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Tech from "./Components/Tech";
 import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -11,16 +12,20 @@ function App() {
         <Navbar />
       </div>
 
-      <div>
+      <div id="home">
         <Home />
       </div>
 
-      <div>
+      <div id="tech">
         <Tech />
       </div>
 
-      <div>
+      <div id="projects">
         <Projects />
+      </div>
+
+      <div id="contact">
+        <Contact />
       </div>
     </div>
   );

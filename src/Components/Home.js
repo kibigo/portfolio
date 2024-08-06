@@ -7,29 +7,31 @@ import TypeWriter from './TypeWriter'
 function Home() {
   return (
     <section>
-        <div className='container flex flex-col mx-auto items-center mt-5 md:flex-row md:gap-10'>
+        <div className='container flex flex-col lg:flex-row mx-auto items-center mt-2 md:gap-10'>
 
             <div className='w-full text-center md:basis-1/2'>
-                <h2 className='text-3xl'>Hello, 
-                    <span className='block'>My name is,</span>
+
+                <a className='ml-2 text-2xl'>
+                    Hello, My name is
                     <span className='block text-3xl text-sky-600'>Jackson</span>
-                </h2>
+                </a>
+
                 <h2 className='text-2xl'>
                     And I'm{" "}
-                    <TypeWriter speed={100} words={["a Developer...", "an youTuber", "a Freelancer"]}/>
+                    <TypeWriter speed={100} words={["a Developer", "a youTuber", "a Freelancer"]}/>
                 </h2>
             </div>
 
-            <p className='text-base text-texlight mt-6 text-center'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit 
-                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-                occaecat cupidatat non proident, sunt in culpa qui officia 
-                deserunt mollit anim id est laborum.
-            </p>
+            <div className='w-2/3'>
+                <p className='text-texlight mt-6 text-start'>
+                    I'm an ambitious student on a dynamic learning path within 
+                    the ever-evolving world of technology. While I'm in the process 
+                    of completing my studies, my practical experience and passionate 
+                    self-guided learning have allowed me to develop a versatile skill 
+                    set encompassing full stack web development, networking, cloud 
+                    technologies, and penetration testing.
+                </p>
+            </div>
 
             <div className='w-full h-full flex items-start justify-center lg:items-center mt-10'>
                 <motion.img 
@@ -40,8 +42,8 @@ function Home() {
                         duration:3,
                         ease:'linear'
                     }}
-                    className='h-80 rounded-full object-contain'
-                    src='https://img.freepik.com/premium-psd/man-with-glasses-green-sweater-stands-front-photo-that-says-company_176841-36674.jpg?w=826'
+                    className='h-72 w-72 rounded-full'
+                    src='/jackson.jpeg'
                 />
             </div>
         </div>
