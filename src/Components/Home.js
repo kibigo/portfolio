@@ -23,7 +23,7 @@ function Home() {
             </div>
 
             <div className='w-2/3'>
-                <p className='text-texlight mt-6 text-start'>
+                <p className='text-neutral-600 mt-6 text-start'>
                     I'm an ambitious student on a dynamic learning path within 
                     the ever-evolving world of technology. While I'm in the process 
                     of completing my studies, my practical experience and passionate 

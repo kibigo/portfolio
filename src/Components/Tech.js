@@ -12,7 +12,7 @@ function Tech() {
 
             <div className='text-center'>
                 <h1 className='font-bold text-4xl'>My Tech Stack</h1>
-                <p className='text-2xl font-light mt-5'>Technologies I've been working with recently</p>
+                <p className='text-2xl font-light mt-5 text-neutral-600'>Technologies I've been working with recently</p>
             </div>
 
             <div className='items-center text-center mt-10'>
