@@ -20,7 +20,7 @@ function Projects() {
                     </div>
                     
                     <div className='text-center'>
-                        <p className='mt-3 text-center md:h-48 lg:h-28 text-neutral-600'>
+                        <p className='mt-3 text-center md:h-48 lg:h-24 text-neutral-600'>
                             OneTimeDelivery is a platform designed to seamlessly connect customers with local
                             business, providing a fast, reliable and user-friendly experience. 
                         </p>
@@ -39,7 +39,7 @@ function Projects() {
                     </div>
 
                     <div className='text-center'>
-                        <p className='mt-3 md:h-48 lg:h-28 text-neutral-600'>
+                        <p className='mt-3 md:h-48 lg:h-24 text-neutral-600'>
                             OneStop Supermarket is a grocery ordering platform that brings convenience to users.
                             Our mission is to transform the grocery shopping experience through technology and innovation.
                         </p>
@@ -59,7 +59,7 @@ function Projects() {
                     </div>
 
                     <div className='text-center'>
-                        <p className='mt-3 md:h-48 lg:h-28 text-neutral-600'>
+                        <p className='mt-3 md:h-48 lg:h-24 text-neutral-600'>
                             Advanced e-commerce platform dedicated to providing an exceptional
                             shopping experience for electronics enthusiasts.
                         </p>
