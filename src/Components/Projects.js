@@ -15,7 +15,7 @@ function Projects() {
                     <div className='items-center mt-3'>
 
                         <a href='https://effortless-fenglisu-ad7a2f.netlify.app/'>
-                            <img className='w-80 md:w-full h-60 mx-auto' src='/oneTimeDelivery.png'/>
+                            <img className='w-80 md:w-full h-60 mx-auto' src='/oneTimeDelivery.png' alt='onetime'/>
                         </a>
                     </div>
                     
@@ -34,7 +34,7 @@ function Projects() {
 
                     <div className='items-center mt-3'>
                         <a href='https://vocal-kashata-5b2a3f.netlify.app/'>
-                            <img className='w-80 md:w-full h-60 mx-auto' src='/oneStop.png'/>
+                            <img className='w-80 md:w-full h-60 mx-auto' src='/oneStop.png' alt='onestop'/>
                         </a>
                     </div>
 
@@ -54,7 +54,7 @@ function Projects() {
 
                     <div className='items-center mt-3'>
                         <a href='/'>
-                            <img className='w-80 md:w-full h-60 mx-auto' src='/coming-soon.jpg'/>
+                            <img className='w-80 md:w-full h-60 mx-auto' src='/coming-soon.jpg' alt='clink_tech'/>
                         </a>
                     </div>
 
