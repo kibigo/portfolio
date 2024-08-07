@@ -1,5 +1,5 @@
 import React from 'react'
-import { AnimatePresence, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import TypeWriter from './TypeWriter'
 
 
@@ -11,7 +11,7 @@ function Home() {
 
             <div className='w-full text-center md:basis-1/2'>
 
-                <a className='ml-2 text-2xl'>
+                <a className='ml-2 text-2xl' href='/'>
                     Hello, My name is
                     <span className='block text-3xl text-sky-600'>Jackson</span>
                 </a>

@@ -1,13 +1,10 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faX, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
 
     const [isMenuVisible, setIsMenuVisible] = useState(false);
-
-    const [showscroll, setShowscroll] = useState(false)
 
     const scrollToElement = (id) => {
         const element = document.getElementById(id)
@@ -27,7 +24,7 @@ function Navbar() {
     <header className='relative'>
         <nav className='container h-10 flex items-center md:justify-between p-10 mx-auto lg:gap-64'>
             <div>
-                <a href='#' className='text-4xl text-blue-500 uppercase font-serif'>
+                <a href='/' className='text-4xl text-blue-500 uppercase font-serif'>
                     Jack<span className='text-yellow-500'>son</span>
                 </a>
             </div>

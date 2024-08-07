@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPython, faJava, faCss3, faHtml5, faJs, faReact, faPhp, faGithub, fa } from '@fortawesome/free-brands-svg-icons'
+import { faPython, faCss3, faHtml5, faJs, faReact, faPhp, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
 
