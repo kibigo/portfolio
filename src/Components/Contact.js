@@ -29,22 +29,22 @@ const Contact = () => {
                                 Tech Stack
                             </h6>
                             <p className="mb-4">
-                                <a className="text-neutral-600 dark:text-neutral-200" href='#'>
+                                <a className="text-neutral-600 dark:text-neutral-200" href='/'>
                                     Laravel
                                 </a>
                             </p>
                             <p className="mb-4">
-                                <a className="text-neutral-600 dark:text-neutral-200" href='#'>
+                                <a className="text-neutral-600 dark:text-neutral-200" href='/'>
                                     React
                                 </a>
                             </p>
                             <p className="mb-4">
-                                <a className="text-neutral-600 dark:text-neutral-200" href='#'>
+                                <a className="text-neutral-600 dark:text-neutral-200" href='/'>
                                     Python
                                 </a>
                             </p>
                             <p>
-                                <a className="text-neutral-600 dark:text-neutral-200" href='#'>
+                                <a className="text-neutral-600 dark:text-neutral-200" href='/'>
                                     Tailwind
                                 </a>
                             </p>
